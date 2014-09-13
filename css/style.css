@@ -75,7 +75,7 @@ a:hover {}
 input {}
 select {}
 label {}
- 
+ .clr{clear:both;}
 /* ------------------------- Lists */
  
 /* ------------------------- Layout */
@@ -230,7 +230,7 @@ font-style:normal;
 -moz-filter: grayscale(100%);
 filter: grayscale(100%);
 }
-.block-item:hover .inner .images img{
+.block-item:hover .inner .images img, .inner:hover .images img{
 	-webkit-filter: grayscale(0%);
 -moz-filter: grayscale(0%);
 filter: grayscale(0%);
@@ -263,6 +263,19 @@ filter: grayscale(0%);
 	color:#392018;
 	text-decoration:none;
 	border:1px solid #392018;
+}
+.send-btn{
+	display:inline-block;
+	margin:10px 0px;
+	float:right;
+	text-align:center;
+	font-size:14px;
+	line-height:28px;
+	padding:0px 20px;
+	border:1px solid transparent;
+	color:#fff;
+	background:url(../images/block-btn.png)repeat-x;
+	text-decoration:none;
 }
 .block-item.active .block-btn, .block-btn:hover{
 	border:1px solid transparent;
@@ -366,10 +379,14 @@ background: url(../images/block-heading.jpg)repeat-x;
 	min-height:780px;
 	position:relative;
 }
+.left-block.short{
+	min-height:380px;
+}
 .left-block .inner{
 	margin-left:30px;
 	margin-right:30px;
 	margin-top:20px;
+	margin-bottom:20px;
 }
 .vcard{
 	position:absolute;
@@ -387,9 +404,70 @@ background: url(../images/block-heading.jpg)repeat-x;
 	font-size:14px;
 	margin-bottom:10px;
 }
+.right-block p span{
+	color:#392018;
+	font-size:18px;
+}
 .right-block iframe{
 	width:100%!important;
 	
+}
+/* CONTACT US */
+.contact-form{
+	
+}
+.form-left{
+	float:left;
+	width:127px;
+}
+.form-right{
+	float:right;
+	width:300px;
+	margin-bottom:20px;
+}
+.form-left input{
+	width:100%;
+	box-sizing:border-box;
+	margin-bottom:13px;
+	border:1px solid #392018;
+	padding-left:10px;
+	font-size:14px;
+	color:#392018;
+	line-height:27px;
+}
+.form-right textarea{
+	width:100%;
+	box-sizing:border-box;
+	border:1px solid #392018;
+	color:#a37030;
+	font-size:14px;
+	min-height:340px;
+	padding-left:10px;
+	padding-top:10px;
+}
+.form-right textarea::-webkit-input-placeholder {
+   color:#a37030;
+}
+.form-right textarea::-moz-placeholder { /* Firefox 18- */
+    color:#a37030;  
+}
+.form-right textarea:-ms-input-placeholder {  
+   color:#a37030;  
+}
+::-webkit-input-placeholder {
+   color:#392018;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:#392018;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color:#392018;  
+}
+
+:-ms-input-placeholder {  
+   color:#392018;  
 }
 /* FOOTER */
 footer{
