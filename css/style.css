@@ -379,6 +379,15 @@ filter: grayscale(0%);
 	margin:0px auto;
 	text-align:center;
 }
+.block-service .block-item .inner .images img, .left-block .inner .images img{
+	border-radius: 0%;
+	height:auto;
+
+}
+.block-service .block-item .inner .images, .left-block .inner .images {
+	height:auto;
+	width:100%;
+}
 .block-service:after{
 	content:'';
 	display:table;
