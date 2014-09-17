@@ -122,26 +122,26 @@ header{
 	background:url(../images/nav-normal.png)no-repeat;
 	position:relative;
 	vertical-align: top;
-	-webkit-transition: all 0.1s ease-in-out;
+	/*-webkit-transition: all 0.1s ease-in-out;
 -moz-transition: all 0.1s ease-in-out;
 -o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;*/
  }
   nav ul li.active, nav ul li:hover{
 	background:url(../images/nav-active.png)no-repeat;
 	height:71px;
 	margin-top:-21px;
-	-webkit-transition: all 0.1s ease-in-out;
+	/*-webkit-transition: all 0.1s ease-in-out;
 -moz-transition: all 0.1s ease-in-out;
 -o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;*/
   }
   nav ul li.active a, nav ul li:hover a{
 	line-height:71px;
-	-webkit-transition: all 0.1s ease-in-out;
+	/*-webkit-transition: all 0.1s ease-in-out;
 -moz-transition: all 0.1s ease-in-out;
 -o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+transition: all 0.1s ease-in-out;*/
 	}
   nav ul li a{
 	display:block;
@@ -150,10 +150,7 @@ transition: all 0.1s ease-in-out;
 	line-height:50px;
 	text-decoration:none;
 	font-size:21px;
-	-webkit-transition: all 0.1s ease-in-out;
--moz-transition: all 0.1s ease-in-out;
--o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+	
   }
   nav ul li a:hover{color:#fff;}
 .box{
