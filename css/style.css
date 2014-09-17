@@ -41,7 +41,10 @@ input:invalid,textarea:invalid{-moz-box-shadow:0 0 5px red;-webkit-box-shadow:0 
 .ie7 img{-ms-interpolation-mode:bicubic}
  
 /* ------------------------- Backgrounds */
-body {background:#C2BAA3;}
+body {background:#C2BAA3;
+	
+
+}
 
 /* ------------------------- Generic */
 body {
@@ -675,6 +678,9 @@ width: 110px;
 	padding:0px 20px;
 	color:#fff;
 	}
+#wrapper{
+	min-height:400px;
+}
 /* FOOTER */
 footer{
 	background:url(../images/footer-bg.png)repeat-x;
@@ -683,9 +689,12 @@ footer{
 	width:100%;
 	margin:0px auto;
 	padding:30px 50px;
+	position: absolute;
+	bottom:-30px;
 }
 footer .copy{
 	float:left;
+
 }
 footer .copy p{
 	color:#fff;
