@@ -196,17 +196,11 @@ transition: all 0.1s ease-in-out;
 .box .box-item:hover .box-link{
 	background:url(../images/nav-active.png)no-repeat;
 	height:71px;
-	-webkit-transition: all 0.1s ease-in-out;
--moz-transition: all 0.1s ease-in-out;
--o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+	
 }
 .box .box-item:hover .box-link a{
 	line-height:71px;
-	-webkit-transition: all 0.1s ease-in-out;
--moz-transition: all 0.1s ease-in-out;
--o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+	
 }
 .box-item .images img{
 	-webkit-filter: grayscale(100%);
