@@ -177,10 +177,7 @@ transition: all 0.1s ease-in-out;
 	height:50px;
 	background:url(../images/nav-normal.png)no-repeat;
 	position:relative;
-	-webkit-transition: all 0.1s ease-in-out;
--moz-transition: all 0.1s ease-in-out;
--o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+	
 }
 .box-link a{
 	display:block;
@@ -189,10 +186,7 @@ transition: all 0.1s ease-in-out;
 	line-height:50px;
 	text-decoration:none;
 	font-size:21px;
-	-webkit-transition: all 0.1s ease-in-out;
--moz-transition: all 0.1s ease-in-out;
--o-transition: all 0.1s ease-in-out;
-transition: all 0.1s ease-in-out;
+	
 }
 .box .box-item:hover{
 	border-bottom:2px solid #AF1A1D;
