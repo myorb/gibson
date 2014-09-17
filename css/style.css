@@ -43,7 +43,6 @@ input:invalid,textarea:invalid{-moz-box-shadow:0 0 5px red;-webkit-box-shadow:0 
 /* ------------------------- Backgrounds */
 body {background:#C2BAA3;
 	
-
 }
 
 /* ------------------------- Generic */
@@ -680,6 +679,7 @@ width: 110px;
 	}
 #wrapper{
 	min-height:400px;
+	padding-bottom:30px;
 }
 /* FOOTER */
 footer{
@@ -689,8 +689,7 @@ footer{
 	width:100%;
 	margin:0px auto;
 	padding:30px 50px;
-	position: absolute;
-	bottom:-30px;
+	
 }
 footer .copy{
 	float:left;
