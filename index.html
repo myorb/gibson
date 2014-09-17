@@ -8,7 +8,16 @@
   <link rel="stylesheet" href="css/style.css"> 
   <!--[if lt IE 9]>  
   <script src="http://html5shiv.googcode.com/svn/trunk/html5.js"></script>  
-  <![endif]-->  
+  <![endif]--> 
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script><script type="text/javascript">
+$(document).ready(function() {
+  var bodyHeight = $("body").height();
+  var vwptHeight = $(window).height();
+  if (vwptHeight > bodyHeight) {
+    $("footer#foo").css("position","absolute").css("bottom",0);
+  }
+});
+</script>  
 </head>  
 <body>
   <!--  Header -->
@@ -54,7 +63,7 @@
   </div><!--  Content Wrapper END  -->
  
   <!--  Footer  -->
-  <footer>
+  <footer id="foo">
   <div class="copy"><p>All rights reserved  "Gibson LeGrand llp" © 2014  West Azure Drive, Suite 233 Las Vegas, Nevada, United States</p></div>
   <div class="f-contact"><p>Phone (702) 541 8200</p></div>
   </footer>
